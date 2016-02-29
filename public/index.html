@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<script src="js/sorttable.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="songSubmitComponent" class="row">
+		<div class="input-field offset-s4 col s4">
+			<input placeholder="What is Love" id="songName" type="text" class="validate">
+		</div>
+	</div>
+	<div class="row center">
+		<button id="submitSong" class="btn waves-effect waves-light light-blue lighten-1" type="submit" name="action">Song
+		</button>
+		<button id="submitAlbum" class="btn waves-effect waves-light cyan lighten-1" type="submit" name="action">Album
+		</button>
+		<button id="submitArtist" class="btn waves-effect waves-light teal lighten-1" type="submit" name="action">Artist
+		</button>
+
+	</div>
+
+	<table id="#songTable" class="sortable centered">
+		<thead>
+			<tr>
+				<th>Album Cover</th>
+				<th>Song</th>
+				<th>Artist</th>
+				<th>Album</th>
+				<th>iTunes Link</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</body>
+<script src="js/script.js"></script>
+
+</html>

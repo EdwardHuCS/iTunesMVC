@@ -1,0 +1,12 @@
+#songName {
+	text-align: center;
+}
+table{
+    table-layout: fixed;
+    width: atuo;
+}
+
+th, td {
+    overflow: hidden;
+    width: 20%;
+}
