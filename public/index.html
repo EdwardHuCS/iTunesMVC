@@ -22,22 +22,37 @@
 		</button>
 		<button id="submitArtist" class="btn waves-effect waves-light teal lighten-1" type="submit" name="action">Artist
 		</button>
-
 	</div>
 
-	<table id="#songTable" class="sortable centered">
-		<thead>
-			<tr>
-				<th>Album Cover</th>
-				<th>Song</th>
-				<th>Artist</th>
-				<th>Album</th>
-				<th>iTunes Link</th>
-			</tr>
-		</thead>
-		<tbody>
-		</tbody>
-	</table>
+
+	<div class="container">
+		<div class="leftDiv">
+			<table id="#songTable" class="sortable centered col s6">
+				<thead>
+					<tr>
+						<th>Album Cover</th>
+						<th>Song</th>
+						<th>Artist</th>
+						<th>Album</th>
+						<th>Favorite</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="rightDiv">
+			<ul id="#playlists" class="collapsible col s6" data-collapsible="expandable">
+				<li>
+					<div class="collapsible-header">Favorites</div>
+					<div class="collapsible-body">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 </body>
 <script src="js/script.js"></script>
 
